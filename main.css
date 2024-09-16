@@ -96,9 +96,6 @@ section,
     display: none;
   }
  
-  .carousel-caption{
-    display: none;
-  }
 }
 /*Modal*/
 
@@ -188,11 +185,19 @@ section,
     height: 700px;
     width: 100%;
   }
-  .carousel-caption{
-   top: 300px;
+  .carousel-caption-one{
+   top: 180px;
+   left: 850px !important;
    bottom: auto;
    font-weight: 800;
   }
+  .carousel-caption-two{
+    color: black !important;
+    top: 180px;
+    left: 850px !important;
+    bottom: auto;
+    font-weight: 800;
+   }
   .footer {
     color: var(--default-color);
     background-color: var(--background-color);
