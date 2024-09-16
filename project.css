@@ -17,7 +17,6 @@ body {
   font-weight: 300;
   font-size: 15px !important;
   border-bottom: 3px solid rgb(179, 35, 179);
-  padding: 3px;
   }
 
 .nav-item:hover {
@@ -26,7 +25,7 @@ body {
   font-weight: 300;
   font-size: 15px !important;
   border: 3px solid rgb(179, 35, 179);
-  padding: 3px;
+  margin: 0px 50px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -35,7 +34,7 @@ display: inline-block;
 margin: auto;
 }
 .nav-item {
-padding: 0px 50px;
+margin: 0px 50px;
 }
 .nav-item>a{
 color: black;
