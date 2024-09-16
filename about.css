@@ -104,6 +104,8 @@ font-size: 15px;
     height: 350px !important;
     margin-top: 25px;
     border-radius: 50%;
+    padding: 5px;
+    border-left: 10px solid rgb(179, 35, 179);
 }
 .about .content h2 {
     font-weight: 700;
@@ -176,7 +178,7 @@ font-size: 15px;
       flex-direction: column;
     }
     .skill{
-      width: 380px;
+      width: 400px;
     }
   }
   .html{
@@ -196,11 +198,11 @@ font-size: 15px;
     animation: JavaScript 3s;
   }
   .PHP{
-    width: 85%;
+    width: 90%;
     animation: PHP 3s;
   }
   .SQL{
-    width: 85%;
+    width: 90%;
     animation: SQL 3s;
   }
   .Angular{
@@ -208,7 +210,7 @@ font-size: 15px;
     animation: Angular 3s;
   }
   .React-JS{
-    width: 85%;
+    width: 75%;
     animation: React-JS 3s;
   }
   @keyframes html {
@@ -248,7 +250,7 @@ font-size: 15px;
       width: 0%;
     }
     100%{
-      width: 95%;
+      width: 90%;
     }
   }
   @keyframes SQL {
@@ -256,7 +258,7 @@ font-size: 15px;
       width: 0%;
     }
     100%{
-      width: 95%;
+      width: 90%;
     }
   }
   @keyframes Angular {
